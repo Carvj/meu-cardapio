@@ -1,12 +1,12 @@
 function Navegacao({ alterarPaginaSelecionada }) {
   return (
     <div className="navegacao">
-      <button
+      <button autoFocus
         className="botao-navegacao"
-        onClick={() => alterarPaginaSelecionada(0)}>
+        onClick={() => alterarPaginaSelecionada(0)} >
         Pratos Principais
       </button>
-      <button
+      <button 
         className="botao-navegacao"
         onClick={() => alterarPaginaSelecionada(1)}>
         Sobremesas

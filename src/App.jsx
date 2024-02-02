@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import React from 'react';
 import './App.css';
 import hashtauranteImg from './assets/hashtaurante.webp';
@@ -6,7 +7,7 @@ import ItemCardapio from './ItemCardapio';
 import { pratosPrincipais, sobremesas, bebidas } from './cardapio';
 
 function App() {
-  const [paginaSelecionada, alterarPaginaSelecionada] = React.useState(0);
+  const [paginaSelecionada, alterarPaginaSelecionada] = useState(0);
 
   const secoesMenu = [pratosPrincipais, sobremesas, bebidas];
 
