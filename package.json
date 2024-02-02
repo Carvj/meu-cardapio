@@ -1,5 +1,5 @@
 {
-  "name": "hashtaurante",
+  "name": "my-first-project-react",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -26,5 +26,20 @@
     "eslint-plugin-react-refresh": "^0.4.5",
     "gh-pages": "^6.1.1",
     "vite": "^5.0.8"
-  }
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carvj/meu-primeiro-projeto-react-js.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Carvj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carvj/meu-primeiro-projeto-react-js/issues"
+  },
+  "homepage": "https://github.com/Carvj/meu-primeiro-projeto-react-js#readme"
 }
